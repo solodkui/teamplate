@@ -3,11 +3,11 @@ $body-bg: $c-white;
 $body-color: $c-black;
 
 // scss-docs-start color-variables
-$blue:    $c-blue;
+$blue:    #0d6efd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
-$red:     #dc3545 !default;
+$red:     #bd7f85;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #198754 !default;
@@ -123,3 +123,5 @@ $small-font-size: 80% !default;
   // margin-right: 15px !important;
   // margin-left: 15px !important;
 // }
+
+$grid-columns: 24;
